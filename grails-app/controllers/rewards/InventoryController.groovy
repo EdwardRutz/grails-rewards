@@ -9,6 +9,8 @@ class InventoryController {
     def edit() {
         def productName = "Breakfast Blend"
         def sku = "BB01"
+        ////map sends data to a view
+        //often the placeholder has the same name as the variable
         [product:productName, sku:sku]
     }
 

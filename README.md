@@ -11,6 +11,11 @@
 - Gradle (4.10.2)
 
 
+## Notes
+
+- Grails calls the models where data is stored, domains.
+
+
 
 
 
