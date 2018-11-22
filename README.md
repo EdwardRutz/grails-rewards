@@ -14,6 +14,7 @@
 ## Notes
 
 - Grails calls the models where data is stored, domains.
+- The H2 database for development is stored in memory which means if the application is stopped then data is lost.
 
 
 
