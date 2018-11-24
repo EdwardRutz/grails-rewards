@@ -16,6 +16,26 @@
 - Grails calls the models where data is stored, domains.
 - The H2 database for development is stored in memory which means if the application is stopped then data is lost.
 
+## Scaffolding
+
+- Scaffolding in Grails 3 is different than in Grails 2
+
+### Dynamic Scaffolding in Grails 3
+
+- Enable scaffolding by setting the scaffold property in the controller to a specific domain class:
+
+```js
+class BookController {
+    static scaffold = Book  // Or any other domain class such as "Author", "Publisher"
+}
+```
+
+- In Grails 2:
+
+```js
+	static scaffold = true
+```
+
 
 
 
