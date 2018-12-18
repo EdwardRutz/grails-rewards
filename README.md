@@ -29,12 +29,7 @@ class BookController {
     static scaffold = Book  // Or any other domain class such as "Author", "Publisher"
 }
 ```
-
-- In Grails 2:
-
-```js
-	static scaffold = true
-```
+- (in older Grails 2, `static scaffold = true`)
 
 
 
